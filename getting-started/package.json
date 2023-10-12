@@ -1,0 +1,25 @@
+{
+  "name": "react-topics-practise",
+  "version": "1.0.0",
+  "description": "covers react concepts and practise code",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parth404/react-topics.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Parth Bhattacharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parth404/react-topics/issues"
+  },
+  "homepage": "https://github.com/parth404/react-topics#readme",
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}
