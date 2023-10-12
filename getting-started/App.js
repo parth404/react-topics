@@ -1,3 +1,6 @@
+import React from "react";
+// import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client"; // resolves warning
 // const heading = React.createElement(
 //   "h1",
 //   { id: "heading", style: { color: "red" } },
@@ -5,7 +8,6 @@
 // );
 
 // creating nested elements
-
 const parent = React.createElement(
   "div",
   { id: "parent" },
@@ -15,7 +17,7 @@ const parent = React.createElement(
   ])
 );
 
-console.log(parent);
+console.log(parent); //object
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);

@@ -3,3 +3,6 @@
 
 # parcel cache
 .parcel-cache
+
+# dist
+dist/
